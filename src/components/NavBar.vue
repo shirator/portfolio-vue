@@ -1,9 +1,4 @@
-<script setup>
-function scrollToProjects() {
-  this.$refs.projectRef.scrollIntoView({ behavior: "smooth" });
-  console.log(this.$refs);
-}
-</script>
+<script setup lang="ts"></script>
 
 <template setup>
   <div
@@ -11,7 +6,7 @@ function scrollToProjects() {
   >
     <div class="font-semibold uppercase text-lg">Carlos Mesquita &lt / ></div>
     <div class="flex gap-4 items-center">
-      <button @click="scrollToProjects">Projetos</button>
+      <button>Projetos</button>
       <div>
         <button
           class="py-3 px-5 bg-gradient-to-r from-purple-700 to-pink-500 rounded-md"
