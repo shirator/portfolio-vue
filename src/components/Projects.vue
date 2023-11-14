@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 const projects = ref([
   {
@@ -9,16 +9,11 @@ const projects = ref([
     demo: "https://react-entrega-s1-nu-kenzie-shirator.vercel.app/",
   },
   {
-    title: "Title Project",
-    stacks: ["React", "Tailwind", "Nest"],
-    resume:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-  },
-  {
-    title: "Title Project",
-    stacks: ["Vue", "SQL", "Golang"],
-    resume:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    title: "Portfolio",
+    stacks: ["Vue", "Tailwind"],
+    resume: "Portfolio feito em Vue para estudos.",
+    github: "https://github.com/shirator/portfolio-vue",
+    demo: "https://react-entrega-s1-nu-kenzie-shirator.vercel.app/",
   },
 ]);
 </script>
