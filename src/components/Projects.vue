@@ -13,7 +13,7 @@ const projects = ref([
     stacks: ["Vue", "Tailwind"],
     resume: "Portfolio feito em Vue para estudos.",
     github: "https://github.com/shirator/portfolio-vue",
-    demo: "https://react-entrega-s1-nu-kenzie-shirator.vercel.app/",
+    demo: "https://cmesquita.vercel.app/",
   },
 ]);
 </script>
